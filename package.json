@@ -1,0 +1,21 @@
+{
+  "name": "es6-plus-enviroment",
+  "version": "1.0.0",
+  "author": "David Mutua  mutuadavi@gmail.com",
+  "description": "Setup an ES6 Dev Environment using Gulp",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-inject": "^5.0.2",
+    "systemjs": "^0.21.4"
+  }
+}
