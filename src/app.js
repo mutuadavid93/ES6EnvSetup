@@ -1,3 +1,3 @@
-import { myObject } from './test.js';
+import myObject from './test.js';
 
 console.log(myObject.userName());

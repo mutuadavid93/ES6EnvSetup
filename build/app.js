@@ -6,7 +6,7 @@ System.register(['./test.js'], function (_export, _context) {
   var myObject;
   return {
     setters: [function (_testJs) {
-      myObject = _testJs.myObject;
+      myObject = _testJs.default;
     }],
     execute: function () {
 

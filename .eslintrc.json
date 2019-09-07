@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-underscore-dangle": ["error", { "allow": ["__express"] }],
+    "no-console": ["error", { "allow": ["log", "error"] }],
+    "import/extensions": ["error", "never", { "js": "always" }]
+  }
+}
